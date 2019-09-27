@@ -67,6 +67,10 @@ public class WordAdapter extends ArrayAdapter<Word> {
         //Set the background color of the text container
         text_container.setBackgroundColor(color);
 
+        ImageView playButton = listItemView.findViewById(R.id.icon_play_btn);
+        //Set the background color of the play button icon
+        playButton.setBackgroundColor(color);
+
         ImageView iconImageView = listItemView.findViewById(R.id.icon_image_view);
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
